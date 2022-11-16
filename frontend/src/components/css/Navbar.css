@@ -1,0 +1,36 @@
+.nav__bar {
+    width: 100%;
+    height: 50px;
+    background: rgb(3, 3, 36);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__bar a {
+    text-decoration: none;
+}
+
+.nav__bar h3 {
+    color: white;
+    cursor: pointer;
+}
+
+.nav__bar .nav__bag {
+    color: white;
+    position: relative;
+}
+
+.nav__bar .nav__bag .bag__quantity {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    background-color: rgb(255, 0, 43);
+    border-radius: 50%;
+    border: none;
+    color: white;
+    padding: 0.3rem;
+    font-weight: 700;
+    font-size: 0.7rem;
+    font-family: 'Quicksand', sans-serif;
+}
